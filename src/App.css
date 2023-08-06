@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla';
+}
+
+/*============ NAV BELLOW ============*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav-logo {
+    margin-right: 5vh;
+    padding: 1rem;
+}
+
+.nav-ul li a {
+    color: #495E57;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-ul li a:hover {
+    color: #F4CE14;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #EDEFEE;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* ========== FOOTER BELLOW =========*/
+
+.footer-li a:hover {
+    color: #F4CE14;
+}
+
+footer {
+    background-color: #495E57;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 35vh;
+}
+
+.footer-logo-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+
+.footer-columns-wrapper {
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-column h3 {
+    color: #EDEFEE;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
