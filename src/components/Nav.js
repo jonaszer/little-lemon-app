@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LogoImage from '../assets/Logo.png';
 import HamburgerNav from '../assets/hamburger-menu.png';
-import '../components/Nav.css';
+import '../components/css/Nav.css';
 import MobileNavOverlay from './MobileNavOverlay';
 
 function Nav() {

@@ -19,9 +19,9 @@ nav {
 }
 
 .nav-ul li a {
-    color: #495E57;
-    margin-right: 1rem;
-    font-size: 1.3rem;
+    color: black;
+    margin-right: 33px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -47,6 +47,42 @@ a {
     display: none;
 }
 
+/* =========== HERO BELLOW ==========*/
+.article-column-one h1 {
+    font-family: 'Markazi';
+    font-weight: 500;
+    color: #F4CE14;
+}
+
+.article-column-one h2 {
+    font-family: 'Markazi';
+    font-weight: 300;
+    color: #EDEFEE;
+}
+
+.article-column-one p {
+    display: flex;
+    flex-direction: flex-start;
+    font-family: 'Karla';
+    font-size: 18px;
+    font-weight: 300;
+    color: #EDEFEE;
+    margin-bottom: 2rem;
+}
+
+.article-column-two {
+    display: flex;
+}
+
+article {
+    background-color: #495E57;
+}
+
+.hero-image {
+    margin: 1rem;
+    border-radius: 16px;
+}
+
 /* ========== FOOTER BELLOW =========*/
 
 .footer-li a:hover {
@@ -59,7 +95,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    height: 35vh;
 }
 
 .footer-logo-container {
@@ -79,8 +114,7 @@ footer {
 
 .footer-column h3 {
     color: #EDEFEE;
-    font-size: 1.1rem;
-    text-transform: uppercase;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 1rem;
 }

@@ -1,0 +1,134 @@
+@media (min-width: 1024px) {
+    article {
+        height: 442px;
+    }
+
+    .article-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .hero-image {
+        width: 380px;
+        height: 445px;
+    }
+
+    .article-column-one {
+        margin-left: 38vh;
+        margin-top: 2rem;
+    }
+
+    .article-column-two {
+        margin-right: 35vh;
+    }
+
+    .article-column-one h1 {
+        font-size: 64px;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .article-column-one h2 {
+        font-size: 40px;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-column-one p {
+        font-size: 18px;
+        margin-top: 1rem;
+        font-weight: 500;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    article {
+        height: 350px;
+    }
+
+    .article-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .hero-image {
+        width: 280px;
+        height: 350px;
+    }
+
+    .article-column-one h1 {
+        font-size: 38px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: 500;
+    }
+
+    .article-column-one p {
+        font-size: 16px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        font-weight: 500;
+        width: 220px;
+    }
+
+    .article-column-one {
+        margin-left: 10vh;
+    }
+
+    .article-column-two {
+        margin-right: 10vh;
+    }
+
+    .article-column-one h2 {
+        font-size: 24px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    article {
+        height: auto;
+    }
+
+    .article-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-column-one h1 {
+        font-size: 44px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .article-column-one h2 {
+        font-size: 26px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .article-column-one p {
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        width: auto;
+    }
+
+    .article-column-one {
+        width: auto;
+        margin: 0;
+    }
+
+    .article-column-two {
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .article-column-two .hero-image {
+        width: 250px;
+    }
+}
