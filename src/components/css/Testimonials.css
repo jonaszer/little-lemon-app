@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    .all-reviews-container {
+        display: flex;
+        width: 420px;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .all-reviews-container {
+        display: flex;
+        width: 200px;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: auto;
+    }
+}
+

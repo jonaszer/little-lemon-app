@@ -20,7 +20,7 @@
     .highlights-cards {
         display: flex;
         flex-direction: row;
-        gap: 3rem;
+        gap: 2.8rem;
     }
 }
 
@@ -50,22 +50,6 @@
         width: 580px;
         overflow-x: scroll;
     }
-
-    .highlight-cards-container::-webkit-scrollbar {
-        display: none;
-    }
-
-    .highlights-cards::-webkit-scrollbar {
-        width: 0;
-    }
-
-    .highlights-cards::-webkit-scrollbar-thumb {
-        background-color: transparent;
-    }
-
-    .highlights-cards::-webkit-scrollbar-corner {
-        display: none;
-    }
 }
 
 @media (max-width: 600px) {
@@ -92,21 +76,5 @@
         scroll-snap-align: center;
         width: 280px;
         overflow-x: scroll;
-    }
-
-    .highlight-cards-container::-webkit-scrollbar {
-        display: none;
-    }
-
-    .highlights-cards::-webkit-scrollbar {
-        width: 0;
-    }
-
-    .highlights-cards::-webkit-scrollbar-thumb {
-        background-color: transparent;
-    }
-
-    .highlights-cards::-webkit-scrollbar-corner {
-        display: none;
     }
 }

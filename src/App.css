@@ -157,6 +157,74 @@ article {
 .order-button:hover {
     color: #F4CE14;
 }
+
+/* ======= TESTIMONIALS BELLOW ======*/
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #495E57;
+    overflow-x: scroll;
+}
+
+.testimonials-container h1 {
+    font-family: 'Markizi';
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    font-weight: 500;
+    color: #EDEFEE;
+}
+
+/* ------ REVIEW BELLOW ------ */
+
+
+.review-container {
+    height: 200px;
+    width: 200px;
+    background-color: #EDEFEE;
+    border-radius: 16px;
+}
+
+.review-content {
+    margin: 1rem;
+}
+
+.reviews {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.img-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-content h4 {
+    margin-bottom: 0.5rem;
+}
+
+.review-content p {
+    margin-top: 0.5rem;
+}
+
+.review-content img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.review-content h3 {
+    margin-left: 1rem;
+}
+
 /* ========== FOOTER BELLOW =========*/
 
 .footer-li a:hover {
