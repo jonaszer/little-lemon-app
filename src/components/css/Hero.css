@@ -6,7 +6,8 @@
     .article-container {
         display: flex;
         align-items: flex-start;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 20vh;
     }
 
     .hero-image {
@@ -15,12 +16,8 @@
     }
 
     .article-column-one {
-        margin-left: 38vh;
         margin-top: 2rem;
-    }
-
-    .article-column-two {
-        margin-right: 35vh;
+        margin-left: 1rem;
     }
 
     .article-column-one h1 {
@@ -40,6 +37,10 @@
         margin-top: 1rem;
         font-weight: 500;
         width: 220px;
+    }
+
+    button {
+        margin-left: 0;
     }
 }
 
@@ -75,11 +76,7 @@
     }
 
     .article-column-one {
-        margin-left: 10vh;
-    }
-
-    .article-column-two {
-        margin-right: 10vh;
+        margin-top: 1rem;
     }
 
     .article-column-one h2 {
@@ -121,6 +118,7 @@
     .article-column-one {
         width: auto;
         margin: 0;
+        margin-top: 1rem;
     }
 
     .article-column-two {
@@ -129,6 +127,7 @@
         margin: 0;
     }
     .article-column-two .hero-image {
-        width: 250px;
+        width: 60vw;
+        height: auto;
     }
 }

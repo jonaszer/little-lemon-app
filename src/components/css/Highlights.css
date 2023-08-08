@@ -1,0 +1,112 @@
+@media (min-width: 1024px) {
+    .highlights-header {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        gap: 23vw;
+    }
+
+    .highlights-title h2 {
+        font-size: 40px;
+    }
+
+    .highlight-cards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .highlights-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .highlights-header {
+        margin-top: 2rem;
+        margin-left: 10vw;
+        margin-right: 11vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .highlights-title h2 {
+        font-size: 30px;
+    }
+
+    .highlight-cards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .highlights-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 580px;
+        overflow-x: scroll;
+    }
+
+    .highlight-cards-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .highlights-cards::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .highlights-cards::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    .highlights-cards::-webkit-scrollbar-corner {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .highlights-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlights-title h2 {
+        font-size: 40px;
+    }
+
+    .highlight-cards-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .highlights-cards {
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-start;
+        scroll-snap-align: center;
+        width: 280px;
+        overflow-x: scroll;
+    }
+
+    .highlight-cards-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .highlights-cards::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .highlights-cards::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    .highlights-cards::-webkit-scrollbar-corner {
+        display: none;
+    }
+}
