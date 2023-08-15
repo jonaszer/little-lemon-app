@@ -307,3 +307,161 @@ footer {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
+/* ========== RESERVATIONS BELLOW =========*/
+
+label {
+    color: #EDEFEE;
+}
+
+.reservations-container {
+    background-color: #495E57;
+    height: auto;
+    width: 100%;
+}
+
+.reservations-title-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Markizi';
+}
+
+.reservations-title-container h1 {
+    color: #F4CE14;
+    font-family: 'Markizi';
+    font-size: 44px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.reservations-title-container h2 {
+    font-family: 'Markizi';
+    font-weight: 300;
+    font-size: 26px;
+    margin-left: 1rem;
+    color: #EDEFEE;
+}
+
+.contact-details-container h1 {
+    margin-left: 1rem;
+    padding-top: 2rem;
+    font-family: 'Markizi';
+}
+
+.contact-column-one {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.contact-column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.occasion {
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 6rem;
+}
+
+.contact-detail-column-one {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-detail-column-two label {
+    color: #000000;
+    padding-bottom: 1rem;
+}
+
+.contact-details-container {
+    background-color: #EDEFEE;
+    height: auto;
+}
+
+.details-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.details-inputs input {
+    background-color: #333333;
+    color: #EDEFEE;
+    border-radius: 16px;
+    height: 35px;
+    padding-left: 1rem;
+}
+
+.details-inputs label {
+    color: #000000;
+}
+
+.details-inputs input[type="number"]::-webkit-inner-spin-button,
+.details-inputs input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.details-inputs input::placeholder {
+    color: #EDEFEE;
+}
+
+.location-container label {
+    color: #333333;
+    font-size: 20px;
+    margin-left: 0.5rem;
+    padding: 0;
+}
+
+.indoor-selection-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.indoor-selection-container input[type="radio"] {
+    color: #000000;
+    cursor: pointer;
+}
+
+.indoor-selection-container label {
+    cursor: pointer;
+}
+
+.contact-inputs {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+.sitting-location {
+    border-radius: 16px;
+    border: 2px solid #000000;
+}
+
+.contact-inputs input::-webkit-inner-spin-button,
+.contact-inputs input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+select,
+option {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #495E57;
+    }

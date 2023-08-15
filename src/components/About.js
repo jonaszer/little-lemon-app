@@ -3,10 +3,10 @@ import '../components/css/About.css';
 import MarioAdrian1 from '../assets/marioadrian1.jpg';
 import MarioAdrian2 from '../assets/marioadrian2.jpg';
 
-function About() {
+function About(props) {
   return (
     <>
-        <div className="about-container">
+        <div id='about' className="about-container">
             <div className="photos-description-container">
                 <div className="title-container">
                     <h1>Little Lemon</h1>

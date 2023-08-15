@@ -6,7 +6,7 @@ import Button from '../components/Button.js';
 
 function Hero() {
   return (
-    <article>
+    <article id='hero'>
         <div className="article-container">
             <div className="article-column-one">
                 <h1>Little Lemon</h1>

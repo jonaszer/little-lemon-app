@@ -9,7 +9,7 @@ import LemonDessert from '../assets/lemonDessert.jpg';
 function Highlights() {
     return (
     <>
-      <div className="highlights-container">
+      <div className="highlights-container" id='highlights'>
         <div className="highlights-header">
           <div className='highlights-title'>
             <h2>This weeks specials!</h2>

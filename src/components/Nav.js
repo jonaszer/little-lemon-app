@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import LogoImage from '../assets/Logo.png';
 import HamburgerNav from '../assets/hamburger-menu.png';
 import '../components/css/Nav.css';
@@ -10,6 +11,8 @@ function Nav() {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+
   return (
     <>
         <nav>
@@ -27,11 +30,11 @@ function Nav() {
               />
             </div>
             <ul className='nav-ul'>
-                <li className='nav-li'><a href='/'>Home</a></li>
-                <li className='nav-li'><a href='/'>About</a></li>
-                <li className='nav-li'><a href='/'>Reservations</a></li>
-                <li className='nav-li'><a href='/'>Order Online</a></li>
-                <li className='nav-li'><a href='/'>Login</a></li>
+                <li className='nav-li'><Link to="/" >Home</Link></li>
+                <li className='nav-li'><Link to="/" >About</Link></li>
+                <li className='nav-li'><Link to="/reservations" >Reservations</Link></li>
+                <li className='nav-li'><Link to="/" >Order Online</Link></li>
+                <li className='nav-li'><Link to="/" >Login</Link></li>
             </ul>
         </nav>
         {menuOpen && <MobileNavOverlay onClose={toggleMenu}/>}
