@@ -465,3 +465,26 @@ option {
     font-weight: bold;
     color: #495E57;
     }
+
+.submit-button {
+    font-family: 'Karla';
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    background-color: #F4CE14;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #000000;
+    color: #F4CE14;
+}
+
+.submit-button:disabled {
+    background-color: #606060;
+    color: #000000;
+}

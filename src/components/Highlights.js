@@ -1,6 +1,5 @@
 import React from 'react';
 import '../components/css/Highlights.css';
-import Button from '../components/Button';
 import Card from '../components/Card';
 import GreekSalad from '../assets/greekSalad.jpg';
 import Bruschetta from '../assets/bruschetta.jpg';
@@ -15,7 +14,7 @@ function Highlights() {
             <h2>This weeks specials!</h2>
           </div>
           <div className='highlight-button'>
-            <Button name='Online Menu'/>
+            <button>View Menu</button>
           </div>
         </div>
         <div className='highlight-cards-container'>
