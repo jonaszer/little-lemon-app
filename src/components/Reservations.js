@@ -12,7 +12,7 @@ function Reservations() {
 
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-  const [dinners, setDinners] = useState("");
+  const [dinners, setDinners] = useState(1);
   const [occasion, setOccasion] = useState("Occasion");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -69,7 +69,6 @@ function Reservations() {
                   type="date"
                   value={date}
                   id="date-picker"
-                  name="selectedDate"
                   onChange={(e) => {
                     setDate(e.target.value);
                   }}
@@ -77,17 +76,21 @@ function Reservations() {
               </div>
               <div className="contact-inputs">
                 <label for="time-picker">What time would you like to visit?</label>
-                <input
+                <select
                   type="time"
                   value={time}
                   id="time-picker"
-                  name="selectedTime"
-                  min="08:00"
-                  max="20:00"
                   onChange={(e) => {
                     setTime(e.target.value);
                   }}
-                  />
+                  >
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    <option>21:00</option>
+                    <option>22:00</option>
+                  </select>
               </div>
               <div className="contact-inputs">
                 <label for="dinners-number">How many dinners required?</label>
@@ -221,7 +224,7 @@ function Reservations() {
               </div>
             </div>
             <div className="button-wrapper">
-            <button className="submit-button" type="submit" disabled={!getIsFormValid()}>Book a table</button>
+            <button className="submit-button" type="submit" disabled={!getIsFormValid()} value="Make Your reservation">Book a table</button>
             </div>
           </div>
         </form>
