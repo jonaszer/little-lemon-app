@@ -64,7 +64,7 @@ function Reservations() {
           <div className="both-reservation-columns-container">
             <div className="contact-column-one">
               <div className="contact-inputs">
-                <label for="date-picker">When would you like to visit us?</label>
+                <label htmlFor="date-picker">When would you like to visit us?</label>
                 <input
                   type="date"
                   value={date}
@@ -75,7 +75,7 @@ function Reservations() {
                   />
               </div>
               <div className="contact-inputs">
-                <label for="time-picker">What time would you like to visit?</label>
+                <label htmlFor="time-picker">What time would you like to visit?</label>
                 <select
                   type="time"
                   value={time}
@@ -93,7 +93,7 @@ function Reservations() {
                   </select>
               </div>
               <div className="contact-inputs">
-                <label for="dinners-number">How many dinners required?</label>
+                <label htmlFor="dinners-number">How many dinners required?</label>
                 <input
                   type="number"
                   value={dinners}
@@ -130,7 +130,7 @@ function Reservations() {
             <div className="both-contact-containers">
               <div className='contact-detail-column-one'>
                 <div className="details-inputs">
-                  <label for="first-name">First name</label>
+                  <label htmlFor="first-name">First name</label>
                   <input
                     type="text"
                     value={firstName}
@@ -144,7 +144,7 @@ function Reservations() {
                   />
                 </div>
                 <div className="details-inputs">
-                  <label for="last-name">Last name</label>
+                  <label htmlFor="last-name">Last name</label>
                   <input
                     type="text"
                     value={lastName}
@@ -158,7 +158,7 @@ function Reservations() {
                     />
                 </div>
                 <div className="details-inputs">
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     value={email}
@@ -172,7 +172,7 @@ function Reservations() {
                     />
                 </div>
                 <div className="details-inputs">
-                  <label for="phone-number">Phone number (Optional)</label>
+                  <label htmlFor="phone-number">Phone number (Optional)</label>
                   <input
                     type="number"
                     value={phoneNumber}
@@ -186,7 +186,7 @@ function Reservations() {
                 </div>
               </div>
               <div className='contact-detail-column-two'>
-                <label for="options">Where would you like to be placed at?</label>
+                <label htmlFor="options">Where would you like to be placed at?</label>
                 <div className="both-locations-container">
                   <div className='location-container'>
                     <img className='sitting-location' src={Indoor} alt='Indoor restaurant'/>
@@ -201,7 +201,7 @@ function Reservations() {
                         setOutdoors(false);
                       }}
                       />
-                      <label for="indoors">Indoors</label>
+                      <label htmlFor="indoors">Indoors</label>
                     </div>
                   </div>
                   <div className='location-container'>
@@ -217,7 +217,7 @@ function Reservations() {
                           setIndoors(false);
                         }}
                         />
-                        <label for="outdoors">Outdoors</label>
+                        <label htmlFor="outdoors">Outdoors</label>
                       </div>
                   </div>
                 </div>
